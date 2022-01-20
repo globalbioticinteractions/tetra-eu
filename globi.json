@@ -9,7 +9,7 @@
     } ],
     "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
     "url" : "https://datadryad.org/stash/downloads/file_stream/375180",
-    "dcterms:bibliographicCitation" : "Maiorano, Luigi et al. (2020), Data from: Tetra-EU 1.0: a species-level trophic meta-web of European tetrapods, Dryad, Dataset, https://doi.org/10.5061/dryad.jm63xsj7b",
+    "dcterms:bibliographicCitation" : "Maiorano, L., Montemaggiori, A., Ficetola, G.F., O’Connor, L. & Thuiller, W. (2020), Data from: Tetra-EU 1.0: a species-level trophic meta-web of European tetrapods, Dryad, Dataset, https://doi.org/10.5061/dryad.jm63xsj7b",
     "delimiter" : ";",
     "headerRowCount" : 1,
     "null" : [ "" ],
