@@ -1,0 +1,68 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://datadryad.org/stash/downloads/file_stream/375180",
+    "dcterms:bibliographicCitation" : "Maiorano, Luigi et al. (2020), Data from: Tetra-EU 1.0: a species-level trophic meta-web of European tetrapods, Dryad, Dataset, https://doi.org/10.5061/dryad.jm63xsj7b",
+    "delimiter" : ";",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceTaxonId",
+        "titles" : "sourceTaxonId",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "sourceTaxonName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceLifestageName",
+        "titles" : "sourceLifestageName",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeName",
+        "titles" : "interactionTypeName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonId",
+        "titles" : "targetTaxonId",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "targetTaxonName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetLifestageName",
+        "titles" : "targetLifestageName",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "localityName",
+        "datatype" : "string"
+      }, {
+        "name" : "reference1Id",
+        "titles" : "reference1Id",
+        "datatype" : "string"
+      }, {
+        "name" : "reference2Id",
+        "titles" : "reference2Id",
+        "datatype" : "string"
+      }, {
+        "name" : "reference3Id",
+        "titles" : "reference3Id",
+        "datatype" : "string"
+      }, {
+        "name" : "reference4Id",
+        "titles" : "reference4Id",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}

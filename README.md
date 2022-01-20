@@ -1,0 +1,5 @@
+[![Review](https://github.com/globalbioticinteractions/tetra-eu/actions/workflows/review.yml/badge.svg)](https://github.com/globalbioticinteractions/tetra-eu/actions) [![Build Status](https://app.travis-ci.com/globalbioticinteractions/tetra-eu.svg)](https://app.travis-ci.com/globalbioticinteractions/tetra-eu) [![GloBI](https://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/tetra-eu&refutes=true&refutes=false)](https://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/tetra-eu)
+
+Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
+
+Maiorano, Luigi et al. (2020), Data from: Tetra-EU 1.0: a species-level trophic meta-web of European tetrapods, Dryad, Dataset, https://doi.org/10.5061/dryad.jm63xsj7b
