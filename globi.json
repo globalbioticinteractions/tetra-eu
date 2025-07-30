@@ -8,12 +8,19 @@
       "@language" : "en"
     } ],
     "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-    "url" : "https://datadryad.org/stash/downloads/file_stream/375180",
+    "url" : "TetraEU_pairwise_interactions.csv",
     "dcterms:bibliographicCitation" : "Maiorano, L., Montemaggiori, A., Ficetola, G.F., O’Connor, L. & Thuiller, W. (2020), Data from: Tetra-EU 1.0: a species-level trophic meta-web of European tetrapods, Dryad, Dataset, https://doi.org/10.5061/dryad.jm63xsj7b",
     "delimiter" : ";",
     "headerRowCount" : 1,
     "null" : [ "" ],
     "tableSchema" : {
+      "foreignKeys": [{
+        "columnReference": "referenceId",
+        "reference": {
+          "resource": "Complete_References_List.csv",
+          "columnReference": "referenceId"
+        }
+      }],
       "columns" : [ {
         "name" : "sourceTaxonId",
         "titles" : "sourceTaxonId",
@@ -47,7 +54,7 @@
         "titles" : "localityName",
         "datatype" : "string"
       }, {
-        "name" : "reference1Id",
+        "name" : "referenceId",
         "titles" : "reference1Id",
         "datatype" : "string"
       }, {
@@ -63,6 +70,28 @@
         "titles" : "reference4Id",
         "datatype" : "string"
       } ]
+    }
+  },{
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "Complete_References_List.csv",
+    "dcterms:bibliographicCitation" : "Maiorano, L., Montemaggiori, A., Ficetola, G.F., O’Connor, L. & Thuiller, W. (2020), Data from: Tetra-EU 1.0: a species-level trophic meta-web of European tetrapods, Dryad, Dataset, https://doi.org/10.5061/dryad.jm63xsj7b",
+    "delimiter" : ";",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "primaryKey": "referenceId",
+      "columns" : [ {
+        "name" : "referenceId",
+        "titles" : "referenceId",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "referenceCitation",
+        "datatype" : "string"
+      }]
     }
   } ]
 }
